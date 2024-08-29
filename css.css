@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(218,218,223,1) 42%, rgba(215,211,211,1) 93%);
+}
+header{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#navlist {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navelements a {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+#navelements a:hover {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: rgb(4, 164, 182);
+}
+
+.navcontainer {
+ 
+    padding: 0%;
+    margin: 0%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(0, 212, 255, 1) 100%);
+}
+
+#navname {
+    padding: 10px;
+    font-size: 2.5rem;
+    color: rgb(187, 251, 250);
+}
+
+.bodydiv {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+footer{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.footerbox{
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(0, 212, 255, 1) 100%);
+    color: rgb(187, 251, 250);
+}
+.content{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(218,218,223,1) 42%, rgba(215,211,211,1) 93%);
+   border-radius: 15px;
+   box-shadow: 3px 3px 30px rgb(0, 154, 250)
+}
+.item{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.right img{
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 30px rgb(0, 0, 0)
+}
+.product h2{
+    margin: 15px;
+    padding: 15px;
+    border-bottom: 3px solid black;
+}
+.product ul{
+    margin: 15px;
+    padding: 15px;
+}
+
+.about p{
+    border: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+.aboutfooter{
+    margin-top: 74.5px;
+    padding-top: 74.5px;
+}
+.left h1{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.left h3{
+    padding-bottom: 15px;
+}
+.left ul{
+    margin-bottom: 15px;
+}
+.left li{
+    font-size: 20px;
+}
